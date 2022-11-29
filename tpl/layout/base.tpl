@@ -137,7 +137,6 @@
         [{/block}]
 
         [{block name="base_fonts"}]
-            <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,700,600' rel='stylesheet' type='text/css'>
         [{/block}]
 
         [{assign var='rsslinks' value=$oView->getRssLinks()}]

@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [v1.0.0] - 2023-03-05
 
+### Changed
+
+- Font files are supplied and loaded locally
+
+
 # [O3-Shop]
 
 > All changes from this moment on will be published as O3-Shop.
