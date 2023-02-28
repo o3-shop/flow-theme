@@ -18,7 +18,7 @@ Check out the appropriate branch for your O3-Shop version into the shop's ``Appl
 
 ```
 cd DOCUMENT_ROOT/Application/views/
-git clone -b BRANCH_NAME https://github.com/OXID-eSales/flow_theme.git flow
+git clone -b BRANCH_NAME https://github.com/o3-shop/flow_theme.git flow
 ```
 
 You should now have a new folder ``DOCUMENT_ROOT/Application/views/flow``.
@@ -96,4 +96,4 @@ If you are interested in contributing of some changes, Please read [CONTRIBUTING
 
 ## Issues
 
-Please forward all issues to https://bugs.oxid-esales.com/ for the project **Flow Theme**.
+Please forward all issues to https://bugs.o3-shop.com/ for the project **Flow Theme**.

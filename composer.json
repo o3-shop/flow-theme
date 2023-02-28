@@ -3,11 +3,11 @@
     "description": "This is Flow Theme for O3-Shop.",
     "type": "oxideshop-theme",
     "keywords": [
-        "oxid",
+        "o3-shop",
         "themes",
         "eShop"
     ],
-    "homepage": "https://www.oxid-esales.com/en/home.html",
+    "homepage": "https://www.o3-shop.com/",
     "license": [
         "GPL-3.0-only"
     ],
