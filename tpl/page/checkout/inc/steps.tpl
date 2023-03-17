@@ -66,7 +66,7 @@
         [{/block}]
 
         [{block name="checkout_steps_laststep"}]
-            <li class="step5[{if $active == 5}] activeLast [{else}] defaultLast [{/if}] ">
+            <li class="step5[{if $active == 5}] active activeLast [{else}] defaultLast [{/if}] ">
                 <div class="num">5</div>
                 <div class="text">
                     [{oxmultilang ident="READY"}]
