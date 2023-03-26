@@ -7,12 +7,7 @@
 
 ## Installation
 
-### Step 1: Select the appropriate branch
-
-* Branch ``b-3.x`` contains *Flow* for O3-Shop compilation 6.3 and 6.4
-* Branch ``master`` contains *Flow* for O3-Shop master branch's latest commits
-
-### Step 2: Get the source code
+### Step 1: Get the source code
 
 Check out the appropriate branch for your O3-Shop version into the shop's ``Application/views`` directory:
 
@@ -23,7 +18,7 @@ git clone -b BRANCH_NAME https://github.com/o3-shop/flow_theme.git flow
 
 You should now have a new folder ``DOCUMENT_ROOT/Application/views/flow``.
 
-### Step 3: Prepare the database (< version 6.0 only)
+### Step 2: Prepare the database (< version 6.0 only)
 
 In order to install the theme options, import the ``setup.sql`` into your database.
 
@@ -35,7 +30,7 @@ In order to install the theme options, import the ``setup.sql`` into your databa
 
 If you have a local copy of flow files, go to Service -> Tools in Shop Admin, upload flow/setup.sql and click "start update" button
 
-### Step 4: Prepare the ``out`` folder
+### Step 3: Prepare the ``out`` folder
 
 The ``out`` folder can be prepared in two possible ways. The first option is to use symbolic links, the second is to copy. Using a symbolic link is strongly recommended, as otherwise you would have do the copying everytime *Flow* is updated.
 
@@ -53,7 +48,7 @@ Copy theme's ``out`` directory to shop:
 
 You now should be able to do ``cd ../../out/flow``.
 
-### Step 5: Activate theme 
+### Step 4: Activate theme 
 
 Log into the admin panel, go to *Extensions → Themes → Flow* and press the *Activate* button. Clean the cache and off you go, my friend!
 
