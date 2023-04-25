@@ -1,8 +1,22 @@
-# Change Log for O3-Shop  Flow Theme
+# Change Log for O3-Shop Flow Theme
 
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## unreleased
+
+## [v1.1.0] - 2023-04-25
+
+### Added
+- template block for Captcha module
+
+### Changed
+
+### Fixed
+- outdated URLs in config settings
+- unassigned style at active step count
+- some small template errors
 
 ## [v1.0.1] - 2023-03-27
 
@@ -296,6 +310,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 - [Guestbook option remains in footer settings of the Flow theme](https://bugs.oxid-esales.com/view.php?id=6696)
 
+[v1.1.0]: https://gitlab.o3-shop.com/o3/flow-theme/-/compare/v1.0.1...v1.1.0
 [v1.0.1]: https://gitlab.o3-shop.com/o3/flow-theme/-/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://gitlab.o3-shop.com/o3/flow-theme/-/tags/v1.0.0
 [O3-Shop]: https://www.o3-shop.com/

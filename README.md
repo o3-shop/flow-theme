@@ -18,19 +18,7 @@ git clone -b BRANCH_NAME https://gitlab.o3-shop.com/o3/flow-theme flow
 
 You should now have a new folder ``DOCUMENT_ROOT/Application/views/flow``.
 
-### Step 2: Prepare the database (< version 6.0 only)
-
-In order to install the theme options, import the ``setup.sql`` into your database.
-
-#### Option 1: Console
-
-``mysql -u MYSQL_USER -p SHOP_DATABASE < flow/setup.sql``
-
-#### Option 2: Shop Admin: Service -> Tools
-
-If you have a local copy of flow files, go to Service -> Tools in Shop Admin, upload flow/setup.sql and click "start update" button
-
-### Step 3: Prepare the ``out`` folder
+### Step 2: Prepare the ``out`` folder
 
 The ``out`` folder can be prepared in two possible ways. The first option is to use symbolic links, the second is to copy. Using a symbolic link is strongly recommended, as otherwise you would have do the copying everytime *Flow* is updated.
 
@@ -48,7 +36,7 @@ Copy theme's ``out`` directory to shop:
 
 You now should be able to do ``cd ../../out/flow``.
 
-### Step 4: Activate theme 
+### Step 3: Activate theme 
 
 Log into the admin panel, go to *Extensions → Themes → Flow* and press the *Activate* button. Clean the cache and off you go, my friend!
 
@@ -60,20 +48,20 @@ All *Flow* theme related CSS/Javascript files can be found in theme's ``build`` 
 instructions (https://nodejs.org/en/download/package-manager/). Example of
 Installation on ubuntu system:
 
-	```
-	curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-	sudo apt-get install -y nodejs
-	```
+    ```
+    curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+    ```
 
 2. Install ``grunt`` globally and update npm. Example:
 
-	```
+    ```
     sudo npm install -g npm grunt-cli 
     ```
 
 3. Go to "flow" theme's directory and install all related ``grunt`` plugins:
 
-	```
+    ```
     cd DOCUMENT_ROOT/Application/views/flow/
     npm install
     ```
@@ -81,9 +69,9 @@ Installation on ubuntu system:
 4. Now its possible to regenerate "flow" theme assets by running ``grunt`` default
 task while being in "flow" directory:
 
-	```
-	grunt
-	```
+    ```
+    grunt
+    ```
 
 ## Contributing
 
